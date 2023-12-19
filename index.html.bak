@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		  <!-- Kode menampilkan peringatan untuk mengaktifkan javascript-->
+</head><body style="cursor: default;"><div align="center"><noscript>
+  <div style="position:fixed; top:0px; left:0px; z-index:3000; height:100%; width:100%; background-color:#FFFFFF">
+  <div style="font-family: Arial; font-size: 17px; padding: 11pt;"></div></div>
+</noscript></div>
+
+<!--Kode untuk mencegah seleksi teks, block teks dll.-->
+<script type="text/javascript">
+function disableSelection(e){if(typeof e.onselectstart!="undefined")e.onselectstart=function(){return false};else if(typeof e.style.MozUserSelect!="undefined")e.style.MozUserSelect="none";else e.onmousedown=function(){return false};e.style.cursor="default"}window.onload=function(){disableSelection(document.body)}
+</script>
+
+<!--Kode untuk mematikan fungsi klik kanan di blog-->
+<script type="text/javascript">
+function mousedwn(e){try{if(event.button==2||event.button==3)return false}catch(e){if(e.which==3)return false}}document.oncontextmenu=function(){return false};document.ondragstart=function(){return false};document.onmousedown=mousedwn
+</script>
+
+<style type="text/css">
+* : (input, textarea) {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+
+}
+</style>
+<style type="text/css">
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+   }
+</style>
+
+<!--Kode untuk mencegah shorcut keyboard, view source dll.-->
+<script type="text/javascript">
+window.addEventListener("keydown",function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){e.preventDefault()}});document.keypress=function(e){if(e.ctrlKey&&(e.which==65||e.which==66||e.which==67||e.which==73||e.which==80||e.which==83||e.which==85||e.which==86)){}return false}
+</script>
+<link href='https://www.government.nl/topics' rel='canonical'/>
+<meta content='https://www.government.nl/topics' property='og:url'/>
+		<meta charset="utf-8">
+                		<title>FREE LIVE CAMS</title>
+				<link rel="stylesheet" href="style.css">
+		<!--[if gte IE 9]>
+		  <style type="text/css">
+			.gradient {
+			   filter: none;
+			}
+		  </style>
+		<![endif]-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			</head>
+                            
+	<body>
+		<div class="wrapper">
+			<center><div class="main"></center>
+				<center><div class="content_wrapper">
+					<div class="content">
+						<div class="answers" data-type="invert">
+							<div class="answers_header">
+								<div class="answers_title"><h1>FREE LIVE CAMS</h1></div>
+								<div class="answers_description">
+									<p><strong>I AM SINGLE GIRL</p></div>
+								<div class="answers_text"><p>100% Free Register, chat and meet with me now at personal webcam and watch my live cams</strong></p></div>
+							<div class="answers_text"><p></p></div>
+							</div>
+							
+															
+															<!-- TEXT ONLY ANSWERS START -->
+								<div class='questionblocks' id='question22'>
+									<div class="question"><p>CLICK HERE</p></div>
+								 <a class="answer" href="https://bgmoez.llovedatng.com/?utm_source=da57dc555e50572d&s1=202325&s2=1930431&click_id=REWOSH" onclick="ngid()" data-target-type="1" data-target-id="OK">OK</a>
+
+																		
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</center>
+<script type="text/javascript">
+
+			var galleryimage = $('.galleryimage');
+			var loader = $('.loader');
+
+			galleryimage.hide();
+
+			galleryimage.on('load', function() {
+				$(this).fadeIn();
+				$(this).siblings().fadeOut();
+			});
+
+			var mq = [22,7];
+			var a = '', g = '', c = [], o = [];
+
+			$(document).ready(function(){
+				$('.questionblocks').hide();
+				$('#question'+mq.shift()).fadeIn();
+			});
+
+			$('.answer').click(function() {
+				var v = $(this).data('target-id');
+				switch(parseInt($(this).data('target-type')))
+				{
+					case 1 : a = v;
+					break;
+					case 2 : c.push(v);
+					break;
+					case 3 : g = v;
+					break;
+					case 4 : o.push(v);
+					break;
+					case 5 : $(this).parent().parent().fadeOut(function() {
+						$('#question'+v).fadeIn();});
+						return false;
+				} 
+				if (mq.length > 0) {
+												fbq('track', 'Click1', {domain: window.location.href});
+												
+						$(this).parent().fadeOut(function() {$('#question'+mq.shift()).fadeIn();});
+						
+				}
+				else {
+						$('.questionblocks').fadeOut('slow');
+						$('body').append('<form id="lf" action="m/r.php" method="POST">');
+						$('#lf').append('<input type="hidden" name="id" value="4038">');
+						$('#lf').append('<input type="hidden" name="r" value="">');
+						$('#lf').append('<input type="hidden" name="a" value="'+a+'">');
+						$('#lf').append('<input type="hidden" name="g" value="'+g+'">');
+												for (var i in c) {
+							$('#lf').append('<input type="hidden" name="c[]" value="'+c[i]+'">');
+						}
+						for (var i in o) {
+							$('#lf').append('<input type="hidden" name="o[]" value="'+o[i]+'">');
+						}
+												fbq('track', 'Click2', {domain: window.location.href});
+												$('#lf').submit();
+					}   
+			});   
+			</script>
+		
+			
+		
+</body>
+</html>
